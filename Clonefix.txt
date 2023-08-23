@@ -1,0 +1,3 @@
+Unable to access SSL certificate fix
+You may run into the Git ‘unable to access GitHub or GitLab’ SSL certificate settings error when attempting to clone a repository. There’s a quick fix you can run at the command line:
+git config --global http.sslverify "false"
